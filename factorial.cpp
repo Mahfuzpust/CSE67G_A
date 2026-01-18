@@ -10,7 +10,12 @@ unsigned long long factorial_iterative(int n) {
     for (int i = 1; i <= n; ++i) {
         result *= i;
     }
-    return result;
+    
+
+
+
+
+    cout << result << end;
 }
 
 int main() {
